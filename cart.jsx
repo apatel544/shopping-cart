@@ -134,7 +134,7 @@ const Products = (props) => {
         >
           {item.name}:${item.cost}-Stock={item.instock}
         </Button>
-        <input name={item.name} type="submit" onClick={addToCart}></input>
+        {/* <input name={item.name} type="submit" onClick={addToCart}></input> */}
       </li>
     );
   });
